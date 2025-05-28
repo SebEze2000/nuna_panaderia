@@ -1,0 +1,191 @@
+/* AJUSTES RESPONSIVE */
+#top-menu-2 .handler {
+	display: none;
+}
+/* ################################################################################################################### */
+/* ################################################################################################################### */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+/* ################################################################################################################### */
+/* ################################################################################################################### */
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header .nav-bar {
+		width: 100%;
+	}	
+	body.index header .logo {
+		height: 80px;
+		margin: 10px auto 18px;
+	}
+}
+
+/* ################################################################################################################### */
+/* ################################################################################################################### */
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header .shopping_cart > a:first-child {
+		border: 0;
+		padding-top: 8px;
+	}
+	header {
+		/*position: fixed;*/
+		background-color: #fff;
+		padding-bottom: 37px !important;
+		box-shadow: 0 10px 10px rgba(0,0,0,.1) !important;
+	}
+	/*header .nav-bar {
+		background-color: #f5f5f5;
+	}*/
+	header .logo {
+		float: left;
+		height: 53px !important;
+		margin-top: 49px !important;
+		margin-bottom: 29px !important;
+	}
+	header .search_block_top {
+		position: absolute !important;
+		right: 0;
+		top: -50px !important;
+		width: 40% !important;
+		float: none !important;
+		margin: 0 !important;
+	}
+	header .top-bar {
+		position: absolute;
+		top:116px;
+		left: 0;
+		right: 0;
+	}
+	/*.columns-container {
+		margin-top: 155px;
+	}*/
+body#category #columns.container, body#product #columns.container {margin-top: 0;}
+
+	#top-menu-1 {
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;
+		float: left;
+		width: 100%;
+		padding-left: 42px;
+		display: flex;
+    }
+	#top-menu-1 a {
+		padding-left: 5px;
+		padding-right: 7px;
+	}
+	#top-menu-2 {
+		background-color: #de1820;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	#top-menu-2 .container{
+		display: none;
+	}
+	#top-menu-2 .handler {
+		cursor: pointer;
+		font: normal normal normal 14px/1 FontAwesome;
+		display: block;
+		padding: 9px 10px;
+		color: #fff;
+		font-size: 16px;
+		line-height: 16px;
+		background-color: #5a5a5a;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+	}
+	#top-menu-2 .sf-menu {
+		margin: 0 !important;
+	}
+	#top-menu-2.open .container{
+		display: block;
+		display: block;
+		top: -1px;
+		float: right;
+		margin-left: 37px;
+		width: 100%;
+		background: #5a5a5a;
+		padding: 0;
+	}
+	#top-menu-2 .highlight {
+		margin: 10px;
+	}
+	#top-menu-2 .highlight a {
+		border: 0;
+	}
+	.newsletter-block {
+		text-align: center;
+	}
+	.newsletter-block input {
+		margin-bottom: 10px;
+	}
+	footer a.whatsapp {
+		display: block;
+		text-align: center;
+		float: none;
+		width: 100%;
+	}
+	.categorias-interna {
+		margin: 0px -16px;
+		background-color: #eee;
+		padding: 16px;
+	}
+	.categorias-interna .dropdown{
+		border: 0;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	.nube-etiquetas {
+		display: none;
+	}
+	
+	.categorias-blog {
+		margin: 0;
+		padding: 5px;
+	}
+	.categorias-blog ul li:first-child {
+		padding: 3px;
+		font-weight: 800;
+		display: inline-block;
+	}
+	.categorias-blog ul  {
+		overflow-x: auto;
+		display: flex;
+		text-align: left;
+	}
+	.categorias-blog ul a {
+		font-size: 14px;
+		white-space: nowrap;
+	}
+
+	.buscador-ideas {
+		background-image: url(../img/bg-gray.gif);
+		padding: 5px 15px;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.buscador-ideas .form-control{
+		line-height: 30px;
+		height: 30px;
+		margin-bottom: 10px !important;
+	}
+	.buscador-ideas .btn {
+		line-height: 30px;
+		height: 30px;
+		padding: 1px 10px;	
+	}
+}
+/* ################################################################################################################### */
+/* ################################################################################################################### */
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* ################################################################################################################### */
+/* ################################################################################################################### */
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+}

@@ -1,0 +1,9 @@
+
+$(document).ready(function(){
+	$('#home-page-tabs li:first, #index .tab-content ul:first').addClass('active');
+	
+	$(".open-menu-categorias").click(function() {
+		$(".categorias-home").toggle();
+	});
+	
+});
