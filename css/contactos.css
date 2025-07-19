@@ -1,0 +1,54 @@
+/* CONTENEDOR GENERAL DEL FORMULARIO */
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* ETIQUETAS DE LOS CAMPOS */
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #444;
+}
+
+/* CAMPOS DE ENTRADA Y TEXTAREA */
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #ffa07a;
+  outline: none;
+}
+
+/* BOTÓN DE ENVIAR */
+form button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #ffa07a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #e98a66;
+}

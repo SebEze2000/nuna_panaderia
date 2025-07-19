@@ -1,0 +1,32 @@
+#carrito-contenedor{
+    width: 500px;
+    margin: auto;
+}
+
+.carrito-bandeja{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+    align-items: center;
+}
+
+.carrito-bandeja img{
+    height: 100px;
+    aspect-ratio: 1,5;
+}
+
+.carrito-bandeja h3{
+    width: 130px;
+}
+
+.boton{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    background-color: rgb(255, 137, 176);
+    
+}
+
+#totales{
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>contacto | Nuna Pasteleria</title>
+  <link rel="stylesheet" href="../css/style.css?v=1.0.0" />
+  <link rel="stylesheet" href="../css/contactos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+      <div class="container">
+        <div class="header-left">
+          <input type="text" placeholder="Buscar">
+          <i class="fas fa-search"></i>
+        </div>
+    
+        <div class="header-center">
+          <img  src="../Multimedia/imagen/logo.png" alt="logo"><br><span>pastelería</span></img>
+        </div>
+    
+        <div class="header-right">
+          <a href="/php/admin.php" class="login">
+              <i class="fa-solid fa-circle-user"></i>
+          </a>
+          <a href="./carrito.html" class="carrito">
+            <i class="fas fa-shopping-cart"></i><span id="count">0</span>
+          </a>
+        </div>
+      </div>
+        <nav class="nav-links">
+          <a href="../index.html">INICIO</a>
+          <a href="productos.html">PRODUCTOS</a>
+          <a href="../pages/contacto.html">CONTACTO</a>
+        </nav>   
+    </header>
+
+    <form action="https://formspree.io/mi-cuenta" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>       
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>       
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>       
+        <button type="submit">Enviar</button>
+    </form>
+    <main>
+</body>

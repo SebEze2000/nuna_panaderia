@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos | Nuna Pasteleria</title>
+  <link rel="stylesheet" href="../css/style.css?v=1.0.0" />
+  <link rel="stylesheet" href="../css/carrito.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+      <div class="container">
+        <div class="header-left">
+          <input type="text" placeholder="Buscar">
+          <i class="fas fa-search"></i>
+        </div>
+    
+        <div class="header-center">
+          <img  src="../Multimedia/imagen/logo.png" alt="logo"><br><span>pastelería</span></img>
+        </div>
+    
+        <div class="header-right">
+          <a href="/php/admin.php" class="login">
+              <i class="fa-solid fa-circle-user"></i>
+          </a>
+          <a href="./carrito.html" class="carrito">
+            <i class="fas fa-shopping-cart"></i><span id="count">0</span>
+          </a>
+        </div>
+      </div>
+        <nav class="nav-links">
+          <a href="../index.html">INICIO</a>
+          <a href="../pages/productos.html">PRODUCTOS</a>
+          <a href="../pages/contacto.html">CONTACTO</a>
+        </nav>   
+    </header>
+    
+    <main>
+    <!--listamos productos-->
+        <h2>este es tu carrito</h2>
+        <div id="carrito-vacio"></div>
+        <section id="carrito-contenedor"></section>
+
+        <section id="totales">
+          <p>total unidades: <span id="unidades">0</span></p>
+          <p>total precio: $<span id="precio">0</span></p>
+          <button id="comprar">comprar</button>
+          <button id="vaciar-carrito">reiniciar carrito</button>
+        </section>
+        
+        
+    </main>
+
+  <script src="../js/stock.js"></script>
+  <script src="../js/sectorCarrito.js?v=1.0.0"></script>
+  <script src="../js/carrito.js?v=1.0.8"></script>
+
+  <footer>
+    <p>&copy; 2025 MiTienda. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuna Pasteleria</title>
+  <link rel="stylesheet" href="css/style.css?v=1.0.2" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+      <div class="container">
+        <div class="header-left">
+          <input type="text" placeholder="Buscar">
+          <i class="fas fa-search"></i>
+        </div>
+    
+        <div class="header-center">
+          <img  src="Multimedia/imagen/logo.png" alt="logo"><br><span>pastelería</span></img>
+        </div>
+    
+        <div class="header-right">
+          <a href="/php/admin.php" class="login">
+              <i class="fa-solid fa-circle-user"></i>
+          </a>
+          <a href="/pages/carrito.html" class="carrito">
+            <i class="fas fa-shopping-cart"></i><span id="count">0</span>
+          </a>
+
+        </div>
+      </div>
+        <nav class="nav-links">
+          <a href="#">INICIO</a>
+          <a href="/pages/productos.html">PRODUCTOS</a>
+          <a href="/pages/contacto.html">CONTACTO</a>
+        </nav>   
+    </header>
+    
+    <main>
+      <!--sector video-->
+      <h1 class="titulo-principal">Tortas Personalizadas, Cupcakes y Más – Descubre NunaPastelería</h1>
+      <div class="video-produc">
+        <iframe  src="https://www.youtube.com/embed/zxTdyNwb6Og" title="CÓMO HACER UNA TORTA DE CUMPLEAÑOS - FÁCIL Y ECONÓMICA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+    <main>
+    <!--listamos productos-->
+        <h2>Nuestros productos</h2>
+        <section id="ultimos-productos"></section>
+    </main>
+    
+
+<script src="js/index.js"></script>
+<script src="js/carrito.js"></script>
+<script src="../js/cargarProductos.js?v=1.0.1"></script>
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-column redes">
+      <h4>Redes Sociales</h4>
+      <a href="https://www.instagram.com" target="_blank" class="instagram">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24" height="24">
+            <path fill="#E1306C" d="M224,202.66A53.34,53.34,0,1,0,277.34,256,53.38,53.38,0,0,0,224,202.66ZM398.8,64A48,48,0,0,0,352,16H96A48,48,0,0,0,49.2,64C32,100.8,32,157.1,32,224s0,123.2,17.2,160A48,48,0,0,0,96,480H352a48,48,0,0,0,46.8-32c17.2-36.8,17.2-93.1,17.2-160S416,100.8,398.8,64ZM224,338.66A82.66,82.66,0,1,1,306.66,256,82.76,82.76,0,0,1,224,338.66Zm85.33-148A19.33,19.33,0,1,1,328.66,171,19.34,19.34,0,0,1,309.33,190.66Z"/>
+          </svg>
+          <span>Instagram</span>
+        </div>
+      </a>
+      <a href="https://www.facebook.com" target="_blank" class="facebook">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="24" height="24">
+            <path fill="#1877F2" d="M18 0C8.06 0 0 8.06 0 18c0 8.84 6.44 16.16 14.85 17.64v-12.5h-4.47v-5.14h4.47V14c0-4.42 2.63-6.88 6.66-6.88 1.93 0 3.95.35 3.95.35v4.35h-2.23c-2.2 0-2.88 1.36-2.88 2.75v3.31h4.9l-.78 5.14h-4.12V36C29.56 34.16 36 26.84 36 18c0-9.94-8.06-18-18-18z"/>
+          </svg>
+          <span>Facebook</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="footer-column contacto">
+      <h4>Contáctanos</h4>
+      <ul>
+        <li>Teléfono: <a href="tel:1133333333">1133333333</a></li>
+        <li>Email: <a href="mailto:info@molapasteleria.com.ar">gmailaqui</a></li>
+        <li>Ubicación: Buenos Aires</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
